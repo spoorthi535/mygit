@@ -9,7 +9,7 @@ double width;
 public double calculateArea()
 {
 	Scanner sc = new Scanner(System.in);
-	System.out.println("Enter length and width");
+	System.out.println("Enter length and width to calculate");
 length=sc.nextDouble();
 width=sc.nextDouble();
 return length * width;
